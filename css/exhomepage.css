@@ -1,0 +1,16 @@
+
+  .title {
+    color: red;
+  }
+  .text1{
+    color:black;
+  }
+  .back{
+    background-color: whitesmoke;
+  }
+  img{
+    border:3px solied black;
+    display:block;
+    margin: 0px auto;
+  
+  }
