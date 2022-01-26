@@ -1,0 +1,23 @@
+  @import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap");
+  .font{
+    font-family: 'Dongle', sans-serif;
+    text-align:center;
+}
+.font-light {
+    font-weight: 400;
+  }
+  .font-bold {
+    font-weight: 700;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&family=Neonderthaw&display=swap');
+  .font2{
+    font-family: 'Neonderthaw', cursive;
+    color:yellowgreen;
+    text-align:center;
+  }
+  img{
+    border:10px solied black;
+    display:block;
+    margin: 0px auto;
+  
+  }
