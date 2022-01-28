@@ -9,8 +9,20 @@
     background-color: whitesmoke;
   }
   img{
-    border:3px solied black;
+    border-style:dashed;
     display:block;
-    margin: 0px auto;
+    margin: 30px auto;
   
+  }
+  .box{
+    background-color: red;
+    width:100px;height:100px;
+    font-weight:bold;
+    margin-top:10px;
+  }
+  button{
+    width:50%;height:auto;
+    padding:10px;
+    margin:auto;
+    display:block;
   }
