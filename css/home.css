@@ -8,7 +8,7 @@ body
   /** 고정된 사이즈로 설정 */
 
 
-  background-size: 100px;
+  background-size: 10px;
 
 
   /** 기본 body 사이즈를 화면 크기로 고정 */
@@ -23,31 +23,95 @@ body
 .bookcover 
 {
   /** 배경 색깔 지정  */
-  background-color: #b4d1da;
-  width : 960px;
-  height : 660px;
-  top : 10%;
-  margin : auto auto;
-  position : relative;
-  border-radius: 10px;
+  width: 865px; height: 595px;
+  background:#b9d5df;
+  border-radius: 5px;
+  margin: 50px auto;
+  position: relative;
 }
 .bookdot
 {
-  position: absolute;
-  width: 925px;
-  height: 630px;
-  top: 2%;
-  left: 1%;
-  border-style: dotted;
-  border-color: white;
-  border-radius: 10px;
+    width: 835px; height: 565px;
+    border: 2px dashed white;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
 }
 .page {
-  background-color: white;
-  width: 900px;
-  height: 610px;
-  position: absolute;
-  top: 2%;
-  left: 1%;
-  border-radius: 15px;
+    width: 820px; height: 545px;
+    background: #efeeed;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+
+    position: relative;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+}
+
+/*left*/
+
+.left-container {
+    display: flex;
+    flex: 0.3;
+    flex-direction: column;
+    margin-right: 22px;
+}
+
+.left-container span {
+    color: red;
+}
+
+.left-title {
+    font-size: 12px;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.left-box {
+    background: white;
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+    width: 195px; height: 485px;
+}
+
+
+/*middle*/
+
+.middle-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.middle-box {
+    background: white;
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+    width: 495px; height: 485px;
+}
+
+.middle-title {
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 9px 0px;
+}
+
+.middle-title-url {
+    flex:0.95;
+    text-align: right;
+}
+
+
+/* right*/
+
+.right-container {
+    display: flex;
+    flex: 0.15;
+    flex-direction: column;
+    border: 1px solid rgb(165, 165, 165);
 }
