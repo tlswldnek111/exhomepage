@@ -2,15 +2,9 @@ body
 {
   background-color: #a3a3a3;
   /** body에 배경이미지 적용 */
-
-
   background-image: url("../image/pattern.png");
   /** 고정된 사이즈로 설정 */
-
-
-  background-size: 12px;
-
-
+  background-size: 9px;
   /** 기본 body 사이즈를 화면 크기로 고정 */
   position: fixed;
   left: 0;
