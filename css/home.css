@@ -77,8 +77,15 @@
     font-size:14px;
     margin-top:-5px;
   }
- 
-
+ .middle-box3-hr{
+    margin-top:-5px; border-style:dotted;width:80%; float:left;
+ }
+.red{
+    background-color: red; color:white; border-radius:3px;
+}
+.blue{
+    background-color: blue; color:white; border-radius:3px;
+}
 /* right*/
 
 .right-container {
