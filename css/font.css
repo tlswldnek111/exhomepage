@@ -16,3 +16,13 @@
         font-weight: normal;
         font-style: normal;
       }
+
+      .font-HS{
+        font-family: 'HSSaemaul-Regular';
+      }
+      .font-KO{
+          font-family: 'KOTRA_BOLD-Bold';
+      }
+      .font-Ne{
+        font-family: 'NeoDunggeunmo';
+      }
