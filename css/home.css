@@ -86,9 +86,19 @@
 .blue{
     background-color: blue; color:white; border-radius:3px;
 }
+.middle-box4{
+    border-radius: 10px;
+    width: 92%; height: 280px;
+    margin-left:20px;
+    margin-right:15px;
+    margin-top:-20px;
+}
+
+
 /* right*/
 
 .right-container {
+    background-color: white;
     display: flex;
     flex: 0.15;
     flex-direction: column;
