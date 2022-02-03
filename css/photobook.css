@@ -1,0 +1,24 @@
+
+.photo-box {
+    background: white;
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+    width: 495px; height: 485px;
+    overflow: scroll;
+    overflow-x:hidden;
+}
+.album{
+    margin-left:20px;
+    margin-top:20px;
+    width:475px;
+    height:auto;
+}
+.text{
+    background-color: gainsboro;
+    font-size:large;
+}
+.text2{
+    width:475px;
+    height:50px;
+    margin-top:20px;
+}
