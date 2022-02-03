@@ -49,6 +49,7 @@
 }
 .diary_text{
     text-align: center;
+    vertical-align: middle;
 }
 .lock{
     width:200px;
@@ -67,4 +68,14 @@
   color: black;
   background-color: blanchedalmond;
   border: 1px solid black;
+}
+.secret{
+    border: 1px solid rgb(221, 221, 221);
+    margin-top:20px;
+    margin-right:5px;
+    flex: 1;
+    height:auto;
+}
+#secret_box {
+    display: none;
 }

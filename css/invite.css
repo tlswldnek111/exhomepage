@@ -1,0 +1,49 @@
+
+.invite-box {
+    background: white;
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+    width: 495px; height: 485px;
+    overflow: scroll;
+    overflow-x:hidden;
+}
+.invite{
+    margin-left:20px;
+    margin-top:20px;
+    width:475px;
+    height:200px;
+    
+}
+.text{
+    background-color: gainsboro;
+}
+.text2{ 
+    flex:1;
+    font-size: 12px;
+    margin-left: 20px;
+    display:table;
+    
+}
+.image{ 
+    margin-top:-20px;
+    flex: 0 0 8rem;
+    height: 9rem;
+    background-size: cover;
+}
+.guestbook_content{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0px;
+    position: relative;
+}
+.guestbook_post{
+    flex:1;
+    font-size: 14px;
+    margin-left: 20px;
+    display:table;
+    white-space: normal;
+}
+img{
+    width:150px; 
+    height:150px;
+}
