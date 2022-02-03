@@ -1,0 +1,70 @@
+
+.diary-box {
+    background: white;
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+    width: 495px; height: 485px;
+}
+.schedule{
+    border: 1px solid rgb(221, 221, 221);
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin: 20px 20px 0px 20px;
+    flex-wrap:wrap;
+}
+.mainday{
+    flex: 0.1;
+    color: #3a81a3;
+    margin: 8px 5px 8px 10px;
+    text-align: center;
+}.subday{
+    flex: 0.9;
+    color: rgb(78, 78, 78);
+    margin: 8px 5px 8px 10px;
+}
+.saturday{
+    color: blue;
+}
+.sunday{
+    color: red;
+}
+.diary{
+    flex: 1;
+    height:400px;
+    margin: 1px 20px 0px 20px;
+    overflow: scroll;
+    overflow-x:hidden;
+}
+.diarys{
+    border: 1px solid rgb(221, 221, 221);
+    margin-top:20px;
+    margin-right:5px;
+    flex: 1;
+    height:200px;
+}
+.diary_title{
+    color: rgb(72, 137, 197);
+    font-size: 12px;
+}
+.diary_text{
+    text-align: center;
+}
+.lock{
+    width:200px;
+    height:50px;
+    color:white;
+    background-color:white;
+    display:block;
+    margin:auto;
+    margin-top:20px;
+    border:0;
+    outline:0;
+}
+.lock:hover
+{
+  transition: 800ms ease all;
+  color: black;
+  background-color: blanchedalmond;
+  border: 1px solid black;
+}
